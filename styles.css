@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#gameSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 100vh;
+}
+
+#gameContainer {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.gameSquare {
+    height: 100%;
+    flex: 1;
+    border: 1px solid black;
+}
+
+#playerInfo {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+}
+
+#title {
+    flex: 1; /* Takes up one-quarter of the available height */
+    width: 100%;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    flex: 2; /* Each .player div takes up one-quarter of the available height */
+    background-color: cornflowerblue;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#restartContainer {
+    flex: 1; /* Takes up one-quarter of the available height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+h3 {
+    display: none;
+}
+
+.player p {
+    display: none;
+}
