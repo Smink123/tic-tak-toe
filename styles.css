@@ -68,8 +68,10 @@ body {
     background-color: coral;
 }
 
-h3 {
+h3, h4 {
     display: none;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .player p {
